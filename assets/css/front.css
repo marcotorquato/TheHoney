@@ -30,9 +30,10 @@
     text-shadow: 3px 2px 3px #444;
     /*
     background: #333;
-    padding:  20px;
+    padding:  5px 220px;
     border-radius: 50px;
     cursor: pointer;
+    
     */
   }
   
@@ -42,8 +43,8 @@
   }
   .item-2 {
     background: url(/assets/img/front/farm-front.jpg) no-repeat  center ;
-    
     background: cover;
+    background-size: 250%;
   }
   
   @media (max-width: 640px) {
