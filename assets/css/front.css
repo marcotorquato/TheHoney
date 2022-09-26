@@ -22,15 +22,18 @@
     flex-basis: 50%;
     transition: all 0.3s;
   }
+  /*
   .item:hover {
     flex-basis: 100%;
-  }
+  }*/
+  
   .item span {
-    font-size: 5rem;
+    font-size: 2.5rem;
     text-shadow: 3px 2px 3px #444;
-    /*
+    
     background: #333;
-    padding:  5px 220px;
+    opacity: 85%;
+    padding:  5px 200px;
     border-radius: 50px;
     cursor: pointer;
     
@@ -40,11 +43,12 @@
   .item-1 {
     background: url(/assets/img/front/bar-front.jpg) no-repeat  center;
     background-size: cover;
+    text-align: center;
   }
   .item-2 {
-    background: url(/assets/img/front/farm-front.jpg) no-repeat  center ;
+    background: url(/assets/img/front/farm-front.jpeg) no-repeat  bottom  ;
     background: cover;
-    background-size: 250%;
+    background-size: 100%;
   }
   
   @media (max-width: 640px) {
