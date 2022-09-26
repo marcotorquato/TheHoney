@@ -22,10 +22,23 @@
     flex-basis: 50%;
     transition: all 0.3s;
   }
-  /*
-  .item:hover {
-    flex-basis: 100%;
-  }*/
+  button {
+    
+    font-size: 2.5rem;
+    text-shadow: 3px 2px 3px #444;
+    
+    background: #333;
+    opacity: 85%;
+    padding:  5px 150px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: transform 200ms cubic-bezier(0.88, -0.7, 0, 2.2);
+  }
+  .item span:hover {
+    transform: scale(1.08);
+    cursor:pointer;
+}
+
   
   .item span {
     font-size: 2.5rem;
@@ -33,12 +46,16 @@
     
     background: #333;
     opacity: 85%;
-    padding:  5px 200px;
+    padding:  5px 150px;
     border-radius: 50px;
     cursor: pointer;
-    
-    */
+    transition: transform 200ms cubic-bezier(0.88, -0.7, 0, 2.2);
   }
+  .item span:hover {
+    transform: scale(1.08);
+    cursor:pointer;
+}
+
   
   .item-1 {
     background: url(/assets/img/front/bar-front.jpg) no-repeat  center;
@@ -46,9 +63,9 @@
     text-align: center;
   }
   .item-2 {
-    background: url(/assets/img/front/farm-front.jpeg) no-repeat  bottom  ;
+    background: url(/assets/img/front/farm-front.jpeg) no-repeat  center bottom  ;
     background: cover;
-    background-size: 100%;
+    background-size: 110%;
   }
   
   @media (max-width: 640px) {
@@ -74,4 +91,5 @@
   a:hover{
     color: #FEBD01;
   }
-  
+
+
