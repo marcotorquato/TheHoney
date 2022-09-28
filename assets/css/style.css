@@ -1,9 +1,3 @@
-/**
-* Template Name: Restaurantly - v3.1.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -451,7 +445,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-#hero:before {
+#hero-farm {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/bg-farm.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+#hero:before, #hero-farm:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -461,17 +464,17 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
-#hero .container {
+#hero .container, #hero-farm .container {
   padding-top: 110px;
 }
 
 @media (max-width: 992px) {
-  #hero .container {
+  #hero .container, #hero-farm .container {
     padding-top: 98px;
   }
 }
 
-#hero h1 {
+#hero h1, #hero-farm h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -480,21 +483,21 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#hero h1 span {
+#hero h1 span, #hero-farm h1 span {
   color: #FEBD01;
 }
 
-#hero h2 {
+#hero h2, #hero-farm h2 {
   color: #eee;
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
 }
 
-#hero .btns {
+#hero .btns, #hero-farm .btns {
   margin-top: 30px;
 }
 
-#hero .btn-menu, #hero .btn-book {
+#hero .btn-menu, #hero .btn-book, #hero-farm .btn-menu, #hero-farm .btn-book {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.5px;
@@ -508,16 +511,16 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #FEBD01;
 }
 
-#hero .btn-menu:hover, #hero .btn-book:hover {
+#hero .btn-menu:hover, #hero .btn-book:hover, #hero-farm .btn-menu:hover, #hero-farm .btn-book:hover {
   background: #FEBD01;
   color: #fff;
 }
 
-#hero .btn-book {
+#hero .btn-book, #hero-farm .btn-book {
   margin-left: 15px;
 }
 
-#hero .play-btn {
+#hero .play-btn, #hero-farm .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(#FEBD01 50%, rgba(205, 164, 94, 0.4) 52%);
@@ -527,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-#hero .play-btn::after {
+#hero .play-btn::after, #hero-farm .play-btn::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -542,7 +545,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-#hero .play-btn::before {
+#hero .play-btn::before, #hero-farm .play-btn::before {
   content: '';
   position: absolute;
   width: 120px;
@@ -565,12 +568,12 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(198, 16, 0, 0);
 }
 
-#hero .play-btn:hover::after {
+#hero .play-btn:hover::after, #hero-farm .play-btn:hover::after {
   border-left: 15px solid #FEBD01;
   transform: scale(20);
 }
 
-#hero .play-btn:hover::before {
+#hero .play-btn:hover::before, #hero-farm .play-btn:hover::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -589,33 +592,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #hero, #hero-farm {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 992px) {
-  #hero .play-btn {
+  #hero .play-btn, #hero-farm .play-btn {
     margin-top: 30px;
   }
 }
 
 @media (max-height: 500px) {
-  #hero {
+  #hero, #hero-farm {
     height: auto;
   }
-  #hero .container {
+  #hero .container, #hero-farm .container {
     padding-top: 130px;
     padding-bottom: 60px;
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #hero h1, #hero-farm h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #hero h2, , #hero-farm h2 {
     font-size: 18px;
     line-height: 24px;
   }
