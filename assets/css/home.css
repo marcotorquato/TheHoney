@@ -37,7 +37,7 @@
     text-align: center;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 1000px) {
     .slider {
       height: 100vh;
       flex-flow: column;
