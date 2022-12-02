@@ -68,6 +68,12 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
+/*--------------------------------------------------------------
+# Modal
+--------------------------------------------------------------*/
+.modal {
+  text-align: center;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -618,7 +624,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2, , #hero-farm h2 {
+  #hero h2, #hero-farm h2 {
     font-size: 18px;
     line-height: 24px;
   }

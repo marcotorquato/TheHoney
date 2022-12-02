@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .modal{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 500px;
+            height: 380px;
+            padding: 15px;
+            border: solid 2px black;
+            border-radius: 10px;
+            background-image: url(/assets/img/drink.jpeg);
+            background: cover;
+            background-size: 100%;
+            text-align: center;
+            display: block;
+            text-align:right;
+            animation: appear 3s;
+        }
+
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 550px) {
+  #modal {
+    max-width: 670px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+        .modal a{
+            
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            border: solid 1px black;
+        }
+        .modal a:hover{
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div id="modal" class="modal">
+        <a href="javascript: close();">X</a>
+    </div>
+
+    <script src="/testezone.js">
+
+    </script>
+    
+</body>
+</html>
