@@ -41,7 +41,11 @@ flex-wrap: wrap;
     font-size: 22px;
     text-decoration: none;
     color: black;
-    ;
+    padding: 40px 30px 0 0;
+    transition: font-size .5s ease;
+        -webkit-transition: font-size .2s ease;
+        -moz-transition: font-size .2s ease;
+        -o-transition: font-size .2s ease;
 }
 .modal a:hover{
     font-size: 32px;
