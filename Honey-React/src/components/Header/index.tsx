@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo-the-honey.png';
 import logoIfood from '../../assets/icons/ifood.svg';
 import logoInsta from '../../assets/icons/instagram.svg';
 import logoWhats from '../../assets/icons/whatsapp.svg';
@@ -16,7 +16,7 @@ export function Header() {
     <header id="header">
       <div className="container">
         <a href="/" className="logo">
-          <img src={logo} alt="Royals Burger" />
+          <img src={logo} alt="Honey Bar" className="logoimg"/>
         </a>
         <div className="menuMob" id="menuMob">
           <nav>
